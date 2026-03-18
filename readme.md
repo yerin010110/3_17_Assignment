@@ -126,7 +126,7 @@ Value Loss:  smooth_l1_loss(V(s), target)
 
 ## 📌 실행 방법
 
-```bash
+bash
 pip install gymnasium torch numpy
 python acer_cartpole.py
 
@@ -134,11 +134,11 @@ python acer_cartpole.py
 
 ## 📌 로컬 실행 방법
 
-```bash
+bash
 pip install gymnasium torch numpy
 python3 acer_cartpole.py
 
-📌 결과
+### 📌 결과
 
 CartPole 환경에서 안정적으로 학습이 진행됩니다.
 
@@ -146,7 +146,7 @@ Replay Buffer를 통해 데이터 효율성이 향상됩니다.
 
 Importance Sampling을 통해 off-policy 문제를 보정합니다.
 
-📌 결론
+### 📌 결론
 
 ACER는 Actor-Critic 구조를 유지하면서 Experience Replay를 도입하여 데이터 효율성을 크게 향상시킨 알고리즘입니다.
 또한 Importance Sampling과 Truncated 기법을 통해 off-policy 문제를 안정적으로 해결합니다.
